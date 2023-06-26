@@ -112,4 +112,4 @@ training:
     epochs: 100
     learning_rate: 0.001
     validation_field: Class
-    validation_measure: roc_auc
+    validation_metric: roc_auc
