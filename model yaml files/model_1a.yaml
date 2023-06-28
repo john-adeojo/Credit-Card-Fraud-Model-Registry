@@ -100,7 +100,7 @@ output_features:
         type: binary
         loss:
             type: binary_weighted_cross_entropy
-            positive_class_weight: 1000
+            positive_class_weight: 581
         num_fc_layers: 2
         fc_size: 64
 
