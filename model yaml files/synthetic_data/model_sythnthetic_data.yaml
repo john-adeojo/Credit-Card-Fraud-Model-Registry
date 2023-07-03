@@ -1,3 +1,14 @@
+model_type: ecd
+preprocessing:
+     sample_ratio: 1.0
+     oversample_minority: null
+     undersample_majority: null
+     split:
+        type: random
+        probabilities:
+        - 0.7
+        - 0.1
+        - 0.2
 input_features:
     -
         name: Time
@@ -100,7 +111,7 @@ output_features:
         type: binary
         loss:
             type: binary_weighted_cross_entropy
-            positive_weight_class: 64
+            positive_class_weight: 63
         num_fc_layers: 2
         fc_size: 64
 
