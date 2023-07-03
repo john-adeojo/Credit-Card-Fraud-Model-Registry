@@ -1,8 +1,5 @@
 model_type: ecd
 preprocessing:
-     sample_ratio: 1.0
-     oversample_minority: null
-     undersample_majority: null
      split:
         type: random
         probabilities:
