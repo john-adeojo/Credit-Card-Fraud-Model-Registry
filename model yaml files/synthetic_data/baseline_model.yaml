@@ -1,9 +1,14 @@
-split:
-     type: random
-     probabilities:
-     - 0.7
-     - 0.1
-     - 0.2
+model_type: ecd
+preprocessing:
+     sample_ratio: 1.0
+     oversample_minority: null
+     undersample_majority: null
+     split:
+        type: random
+        probabilities:
+        - 0.7
+        - 0.1
+        - 0.2
 input_features:
     -
         name: Time
